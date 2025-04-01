@@ -1,5 +1,5 @@
 Made by ShrikerChestTree
-Version: Dev 3
+Version: Dev 4
 
 option.SHADER_VERSION_LABEL = Bliss Разрабатываемая Версия
     prefix.SHADER_VERSION_LABEL = COMMIT #
@@ -395,14 +395,14 @@ screen.World = Мир
         option.WATER_BACKGROUND_SPECULAR = Отражения Неба/Тумана
         option.FAKE_REFRACTION_EFFECT = Преломление В Воде/Стекле
         option.Dirt_Amount = Количество Грязи
-        option.Water_Top_Layer = координата Океана Y
+        option.Water_Top_Layer = Координата Океана Y
         option.WATER_WAVE_STRENGTH = Сила Волны
         option.SNELLS_WINDOW = Окно Снелла
         option.MINIMUM_WATER_ABSORBANCE = Минимальное Поглощение Воды
             value.MINIMUM_WATER_ABSORBANCE.-1 = АВТО
 
         screen.Water_fog_color = Настройки Туманной Воды
-            option.Dirt_Scatter_R = Разброс Красногогрязь)
+            option.Dirt_Scatter_R = Разброс Красного (грязь)
             option.Dirt_Scatter_G = Разброс Зелёного (грязь)
             option.Dirt_Scatter_B = Разброс Синего (грязь)
             option.Dirt_Absorb_R = Поглощение Красного (грязь)
@@ -413,49 +413,49 @@ screen.World = Мир
             option.Water_Absorb_B = Поглощение Синего (вода)
 
 
-screen.Post_Processing = Post Processing
-    screen.Tonemapping = Tone-Map/Color Settings
-    screen.Exposure = Exposure Settings
-    screen.DepthOfField = Depth Of Field Settings
-    screen.Purkinje_effect = Purkinje Effect Settings
-    option.SHARPENING = Sharpening amount
-    option.BLOOM_STRENGTH = Bloom Multiplier
-    screen.TAA_OPTIONS = Anti-Aliasing Settings
-        option.SCREENSHOT_MODE = Screenshot Mode
+screen.Post_Processing = Пост Обработка
+    screen.Tonemapping = Настройки Tone-Map/Цвета
+    screen.Exposure = Настройки Экспозиции
+    screen.DepthOfField = Настройки Depth Of Field
+    screen.Purkinje_effect = Настройки Purkinje Эффекта
+    option.SHARPENING = Количесвто Резкости
+    option.BLOOM_STRENGTH = Множитель Bloom
+    screen.TAA_OPTIONS = Настройки Anti-Aliasing
+        option.SCREENSHOT_MODE = Режим Скриншота
         option.TAA = TAA
-        option.RESPONSIVE_TAA = Responsive TAA §a(SET BLEND FACTOR TO 0.25 WHEN THIS IS ENABLED)
-        option.BLEND_FACTOR = Blend Factor
-        option.TAA_UPSCALING = Temporal Upscaling
-        option.SCALE_FACTOR = Scale Factor
-	screen.COLOR_GRADING = Color Grading
-		option.LUMINANCE_CURVE = Tone Curve
-		option.LOWER_CURVE = Lower Curve
-		option.UPPER_CURVE = Upper Curve
-		option.COLOR_GRADING_ENABLED=Color Grading
-		option.SHADOWS_GRADE_R = Shadows §cRed
-		option.SHADOWS_GRADE_G = Shadows §aGreen
-		option.SHADOWS_GRADE_B = Shadows §9Blue
-		option.SHADOWS_GRADE_MUL = Shadows Brightness
-		option.MIDS_GRADE_R = Midtones §cRed
-		option.MIDS_GRADE_G = Midtones §aGreen
-		option.MIDS_GRADE_B = Midtones §9Blue
-		option.MIDS_GRADE_MUL = Midtones Brightness
-		option.HIGHLIGHTS_GRADE_R = Highlights §cRed
-		option.HIGHLIGHTS_GRADE_G = Highlights §aGreen
-		option.HIGHLIGHTS_GRADE_B = Highlights §9Blue
-		option.HIGHLIGHTS_GRADE_MUL = Highlights Brightness
+        option.RESPONSIVE_TAA = Чувствительность TAA §a(СТАВЬТЕ ФАКТОР СМЕСИ НА 0.25, КОГДА ЭТО ВКЛЮЧЕНО)
+        option.BLEND_FACTOR = Фактор Смеси
+        option.TAA_UPSCALING = Временное Масштабирование
+        option.SCALE_FACTOR = Фактор Шкалы
+	screen.COLOR_GRADING = Градация Цвета
+		option.LUMINANCE_CURVE = Tone Изгиб
+		option.LOWER_CURVE = Нижний Изгиб
+		option.UPPER_CURVE = Верхний Изгиб
+		option.COLOR_GRADING_ENABLED=Градация Цвета
+		option.SHADOWS_GRADE_R = §cКрасные Тени
+		option.SHADOWS_GRADE_G = §aЗелёные Тени
+		option.SHADOWS_GRADE_B = §9Синие Тени
+		option.SHADOWS_GRADE_MUL = Яркость Теней
+		option.MIDS_GRADE_R = §cКрасный Midtones
+		option.MIDS_GRADE_G = §aЗелёный Midtones
+		option.MIDS_GRADE_B = §9Синий Midtones
+		option.MIDS_GRADE_MUL = Яркость Midtones
+		option.HIGHLIGHTS_GRADE_R = §cКрасное Подсвечивание
+		option.HIGHLIGHTS_GRADE_G = §aЗелёное Подсвечивание
+		option.HIGHLIGHTS_GRADE_B = §9Синее Подсвечивание
+		option.HIGHLIGHTS_GRADE_MUL = Яркость Подсвечивания
 
 
-screen.Resource_Pack_Support = Resource Pack Support
-    screen.Reflections = Specular Reflections
-        option.Specular_Reflections = Specular Reflections
-        option.Screen_Space_Reflections = Screen-Space Reflections
-        option.Rough_reflections = Detailed Roughness
-        option.Sky_reflection = Sky/Fog in Reflections
-        option.Dynamic_SSR_quality = Dynamic SSR Quality
-        option.Roughness_Threshold = Reflection Threshold
-        option.Sun_specular_Strength = Sun Reflection Multiplier
-        option.reflection_quality = SSR Quality
+screen.Resource_Pack_Support = Поддержка Наборов Ресурсов
+    screen.Reflections = Specular Отражения
+        option.Specular_Reflections = Specular Отражения
+        option.Screen_Space_Reflections = Отражения в Пространстве-Экрана
+        option.Rough_reflections = Детализированное Шерехование
+        option.Sky_reflection = Отражение от Неба/Тумана
+        option.Dynamic_SSR_quality = Качество Динамического SSR
+        option.Roughness_Threshold = Порог Отражения
+        option.Sun_specular_Strength = Множитель Солнечного Отражения
+        option.reflection_quality = Качество SSR
 
     screen.Emissives = Emissives
         option.Emissive_Brightness = Emission Multiplier
